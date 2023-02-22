@@ -1,0 +1,98 @@
+body{
+background-color:#E3DFFD;
+color: #4D455D;
+font-family: 'Bodoni Moda', serif;
+font-weight: 300;
+font-size: 20px;
+}
+h1{
+	color:blueviolet;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font-size: 25px;
+	font-family: 'Playfair Display', serif;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+
+
+a: hover {
+	color: white;
+}
+.img-circle{
+	border-radius: 51%;
+
+}
+
+
+.img-bordered {
+  border: 10px solid #E3DFFD;
+}
+
+.container{
+
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+
+	background-color: #E3DFFD;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.btn-pink {
+
+	background-color: blueviolet;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.btn-pink:hover {
+	background-color: lightpink;
+	color: white;
+}
+
+.list-inline{
+
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+font-size: 50px;
+}
+
+.list-inline i:hover {
+	color: lightpink;
+}
+
+#introduction p {
+
+margin-bottom: 40px;
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+
